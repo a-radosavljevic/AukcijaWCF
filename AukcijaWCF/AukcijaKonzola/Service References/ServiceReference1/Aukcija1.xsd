@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/AukcijaWCF" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AukcijaWCF" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:58814/Aukcija.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="CompositeType">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BoolValue" type="xs:boolean" />
+      <xs:element minOccurs="0" name="StringValue" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CompositeType" nillable="true" type="tns:CompositeType" />
+  <xs:complexType name="Eksponat">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Cena" type="xs:int" />
+      <xs:element minOccurs="0" name="Id" type="ser:guid" />
+      <xs:element minOccurs="0" name="Naziv" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="klijenti" nillable="true" type="tns:ArrayOfKlijentAukcije" />
+      <xs:element minOccurs="0" name="najveciPonudjac" nillable="true" type="tns:KlijentAukcije" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Eksponat" nillable="true" type="tns:Eksponat" />
+  <xs:complexType name="ArrayOfKlijentAukcije">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="KlijentAukcije" nillable="true" type="tns:KlijentAukcije" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfKlijentAukcije" nillable="true" type="tns:ArrayOfKlijentAukcije" />
+  <xs:complexType name="KlijentAukcije">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Ime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="KlijentAukcijeId" type="ser:guid" />
+      <xs:element minOccurs="0" name="Prezime" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="KlijentAukcije" nillable="true" type="tns:KlijentAukcije" />
+  <xs:complexType name="ArrayOfEksponat">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Eksponat" nillable="true" type="tns:Eksponat" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfEksponat" nillable="true" type="tns:ArrayOfEksponat" />
+</xs:schema>

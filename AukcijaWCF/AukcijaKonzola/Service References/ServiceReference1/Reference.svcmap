@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ada35ee7-7de3-4dce-bff5-838aef956f71" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:58814/Aukcija.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Aukcija.disco" MetadataType="Disco" ID="63b8c28f-7e95-4f97-82c7-7ffa7ab0f6d9" SourceId="1" SourceUrl="http://localhost:58814/Aukcija.svc?disco" />
+    <MetadataFile FileName="Aukcija.xsd" MetadataType="Schema" ID="a7da0445-7954-4f6e-8272-221c10cfaaaa" SourceId="1" SourceUrl="http://localhost:58814/Aukcija.svc?xsd=xsd0" />
+    <MetadataFile FileName="Aukcija.wsdl" MetadataType="Wsdl" ID="9779ff2c-0b42-4407-a53d-289305b43ac9" SourceId="1" SourceUrl="http://localhost:58814/Aukcija.svc?wsdl" />
+    <MetadataFile FileName="Aukcija1.xsd" MetadataType="Schema" ID="a3330c84-d437-4652-9c37-dbd74459d91b" SourceId="1" SourceUrl="http://localhost:58814/Aukcija.svc?xsd=xsd2" />
+    <MetadataFile FileName="Aukcija2.xsd" MetadataType="Schema" ID="260129c5-df8c-4f5d-b6ca-a51fdfc1b73d" SourceId="1" SourceUrl="http://localhost:58814/Aukcija.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

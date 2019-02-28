@@ -1,0 +1,9 @@
+c:\users\aleksandar\documents\visual studio 2015\Projects\AukcijaWCF\AukcijaKlijent\bin\Debug\AukcijaKlijent.exe.config
+c:\users\aleksandar\documents\visual studio 2015\Projects\AukcijaWCF\AukcijaKlijent\bin\Debug\AukcijaKlijent.exe
+c:\users\aleksandar\documents\visual studio 2015\Projects\AukcijaWCF\AukcijaKlijent\bin\Debug\AukcijaKlijent.pdb
+c:\users\aleksandar\documents\visual studio 2015\Projects\AukcijaWCF\AukcijaKlijent\obj\Debug\AukcijaKlijent.csprojResolveAssemblyReference.cache
+c:\users\aleksandar\documents\visual studio 2015\Projects\AukcijaWCF\AukcijaKlijent\obj\Debug\AukcijaKlijent.Form1.resources
+c:\users\aleksandar\documents\visual studio 2015\Projects\AukcijaWCF\AukcijaKlijent\obj\Debug\AukcijaKlijent.Properties.Resources.resources
+c:\users\aleksandar\documents\visual studio 2015\Projects\AukcijaWCF\AukcijaKlijent\obj\Debug\AukcijaKlijent.csproj.GenerateResource.Cache
+c:\users\aleksandar\documents\visual studio 2015\Projects\AukcijaWCF\AukcijaKlijent\obj\Debug\AukcijaKlijent.exe
+c:\users\aleksandar\documents\visual studio 2015\Projects\AukcijaWCF\AukcijaKlijent\obj\Debug\AukcijaKlijent.pdb
